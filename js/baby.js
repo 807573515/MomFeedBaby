@@ -65,10 +65,10 @@ babyObj.prototype.draw = function()
 
     //baby body
     this.babyBodyTimer +=deltaTime;
-    if(this.babyBodyTimer>300)
+    if(this.babyBodyTimer>100)
     {
         this.babyBodyCount = this.babyBodyCount+1;
-        this.babyBodyTimer %= 300;
+        this.babyBodyTimer %= 100;
         if(this.babyBodyCount > 19)
         {
             this.babyBodyCount = 19; //停留在白色
