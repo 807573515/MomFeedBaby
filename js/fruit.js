@@ -10,7 +10,7 @@ var fruitObj = function()
     this.orange = new Image();
     this.blue = new Image();
 }
-fruitObj.prototype.num = 30;
+fruitObj.prototype.num = 20;
 fruitObj.prototype.init = function()
 {
     for(var i=0;i<this.num;i++)
